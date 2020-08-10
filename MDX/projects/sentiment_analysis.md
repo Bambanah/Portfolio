@@ -6,6 +6,4 @@ blurb: "Sentiment analysis of tweets regarding COVID-19."
 tags: ["tensorflow", "pandas"]
 ---
 
-# WOW
-
-## What is going on right now????
+Implementation of Tensorflow and Keras models to analyse the sentiment trend of tweets containing information about COVID-19. 

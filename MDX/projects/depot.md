@@ -6,4 +6,5 @@ blurb: "My personal site (this one!) built with Next.js and React."
 tags: ["react", "nextjs"]
 ---
 
-## A bit about my personal site.
+This is my little corner of the internet. Built with Next.js and React.
+
