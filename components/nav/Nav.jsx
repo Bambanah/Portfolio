@@ -19,11 +19,11 @@ export default function Nav() {
             <a className={styles.nav_link}>projects</a>
           </Link>
         </li>
-        <li className={router.pathname.includes("/playground") ? "active" : ""}>
+        {/* <li className={router.pathname.includes("/playground") ? "active" : ""}>
           <Link href="/playground">
             <a className={styles.nav_link}>playground</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
 
       <style jsx>{`
