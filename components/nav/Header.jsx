@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import styles from "../styles/nav.module.scss";
 
-function Header(props) {
+function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.brand}>
