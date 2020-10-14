@@ -28,6 +28,21 @@ const tagStyles = {
     fg: "#fff",
     bg: "#130654",
   },
+  gatsby: {
+    display: "Gatsby",
+    fg: "#fff",
+    bg: "#663399",
+  },
+  graphql: {
+    display: "GraphQL",
+    fg: "#171E26",
+    bg: "#E10098",
+  },
+  angular: {
+    display: "Angular",
+    fg: "#fff",
+    bg: "#DD0031",
+  },
 };
 
 export default tagStyles;
