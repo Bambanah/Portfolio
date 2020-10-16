@@ -38,10 +38,25 @@ const tagStyles = {
     fg: "#171E26",
     bg: "#E10098",
   },
-  angular: {
-    display: "Angular",
+  mongodb: {
+    display: "MongoDB",
     fg: "#fff",
-    bg: "#DD0031",
+    bg: "#14914F",
+  },
+  node: {
+    display: "Node.js",
+    fg: "#80C928",
+    bg: "#47493E",
+  },
+  firebase: {
+    display: "Firebase",
+    fg: "#202124",
+    bg: "#FBC02D",
+  },
+  keras: {
+    display: "Keras",
+    fg: "#fff",
+    bg: "#D00000",
   },
 };
 
