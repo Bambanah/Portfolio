@@ -3,7 +3,7 @@ repo_url: "https://github.com/Bambanah/startpage"
 title: "Startpage"
 image_name: "startpage.png"
 blurb: "Fully customisable startpage."
-tags: ["react", "graphql", "gatsby"]
+tags: ["react", "gatsby", "graphql"]
 ---
 
 I was a bit annoyed by the lack of good startpage options out there, so I made my own.

@@ -3,7 +3,7 @@ repo_url: "https://github.com/Bambanah/CAB420-SentimentAnalysis"
 title: "Sentiment Analysis"
 image_name: "sentiment_analysis.jpg"
 blurb: "Sentiment analysis of tweets regarding COVID-19."
-tags: ["tensorflow", "pandas"]
+tags: ["tensorflow", "keras", "pandas"]
 ---
 
 The final group project of the CAB420 unit at QUT called for a problem of our choice to be solved using machine learning. As part of a group of four students, I helped design, train, and evaluate several machine learning algorithms to detect the sentiment level of tweets about COVID-19.
