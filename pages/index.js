@@ -14,14 +14,16 @@ export default function Home() {
         <h1 className={styles.hero_text} data-shadow="hello!">
           hello!
         </h1>
-        <p>My name's Lachie.</p>
-        <p>
-          I'm a recent CS graduate from QUT, with minors in UX and AI. Why don't
-          you{" "}
-          <Link href="/projects">
-            <a>check out my projects?</a>
-          </Link>
-        </p>
+        <div className={styles.blurb}>
+          <p>My name's Lachie.</p>
+          <p>I'm a recent CS graduate from QUT, with minors in UX and AI.</p>
+          <p>
+            Why don't you{" "}
+            <Link href="/projects">
+              <a>check out my projects?</a>
+            </Link>
+          </p>
+        </div>
       </div>
     </Layout>
   );
