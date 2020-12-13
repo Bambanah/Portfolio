@@ -4,7 +4,7 @@ const withMDX = require("@next/mdx")({
 });
 
 module.exports = withImages({
-  pageExtensions: ["js", "jsx", "md", "mdx"],
+  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 
   webpack: function (config) {
     config.node = { fs: "empty" };
