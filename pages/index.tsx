@@ -1,29 +1,32 @@
-import Link from "next/link";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
 
 import Layout from "../components/Layout";
-
 import styles from "../components/styles/home.module.scss";
+
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Separator from "../components/shared/Separator";
+import Projects from "../components/Projects";
+import Footer from "../components/nav/Footer";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
     <Layout>
       <div className={styles.container}>
-        <h1 className={styles.hero_text} data-shadow="hello!">
-          hello!
-        </h1>
-        <div className={styles.blurb}>
-          <p>My name's Lachie.</p>
-          <p>I'm a recent CS graduate from QUT, with minors in UX and AI.</p>
-          <p>
-            Why don't you{" "}
-            <Link href="/projects">
-              <a>check out my projects?</a>
-            </Link>
-          </p>
-        </div>
+        <Hero />
+        <Separator className="light-to-dark" />
+
+        <About />
+        <Separator className="dark-to-light" />
+
+        <Projects />
+        <Separator className="light-to-dark" />
+
+        <Skills className="darkbg" />
+        <Separator className="dark-to-light" />
+
+        <Footer />
       </div>
     </Layout>
   );

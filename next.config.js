@@ -13,6 +13,7 @@ module.exports = withImages({
       test: /\.md$/,
       use: "raw-loader",
     });
+
     return config;
   },
 });

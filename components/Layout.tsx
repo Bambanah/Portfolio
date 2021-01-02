@@ -19,7 +19,6 @@ function Layout(props) {
 
       <Header />
       <section className={styles.section}>{props.children}</section>
-      <Footer />
     </div>
   );
 }
