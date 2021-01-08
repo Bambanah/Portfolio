@@ -15,16 +15,16 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <Hero />
-        <Separator className="light-to-dark" />
+        <Separator fillColor="#141414" bgColor="#1d1d1d" />
 
         <About />
-        <Separator className="dark-to-light" />
+        <Separator fillColor="#1d1d1d" bgColor="#141414" />
 
         <Projects />
-        <Separator className="light-to-dark" />
+        <Separator fillColor="#141414" bgColor="#1d1d1d" />
 
         <Skills className="darkbg" />
-        <Separator className="dark-to-light" />
+        <Separator fillColor="#1d1d1d" bgColor="#141414" />
 
         <Footer />
       </div>

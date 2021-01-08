@@ -2,6 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 import styles from "../components/styles/home.module.scss";
+import Separator from "./shared/Separator";
 
 export default function About() {
   return (
